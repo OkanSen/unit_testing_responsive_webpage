@@ -3,7 +3,7 @@
 In order to create a successful project for testing, you should first download JUnit, Selenium for Java and chromedriver.
 The versions used in the project are as below;
 
-These two are accessible on the Github page of JUnit
+The first two are accessible on the Github page of JUnit, the others can be accessed from their download pages:
 - JUnit-4.13.2.jar
 - hamcrest-core-1.3.jar
 
