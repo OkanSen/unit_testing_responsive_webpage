@@ -37,12 +37,19 @@ Then navigate to the folder where you have placed Selenium components.
 
 
 Before launching the code, make sure to set the paths to your relative paths given below, that are included in the code;
-System.setProperty("webdriver.chrome.driver", "C:\\webdrivers\\chromerdriver92\\chromedriver.exe"); 
+
+System.setProperty("webdriver.chrome.driver", "C:\\webdrivers\\chromerdriver92\\chromedriver.exe")
+
 driver.get("D:\\Program Files (x86)\\Eclipse\\eclipse saves\\JUnit_Selenium_Testing\\src\\junit_test\\Project4\\index.html")
+
 String test_case_1_filepath = "D:\\Program Files (x86)\\Eclipse\\eclipse saves\\JUnit_Selenium_Testing\\src\\junit_test\\Test_Case_1.txt"
+
 String test_case_2_filepath = "D:\\Program Files (x86)\\Eclipse\\eclipse saves\\JUnit_Selenium_Testing\\src\\junit_test\\Test_Case_2.txt"
+
 String test_case_3_filepath = "D:\\Program Files (x86)\\Eclipse\\eclipse saves\\JUnit_Selenium_Testing\\src\\junit_test\\Test_Case_3.txt"
+
 String test_case_4_filepath = "D:\\Program Files (x86)\\Eclipse\\eclipse saves\\JUnit_Selenium_Testing\\src\\junit_test\\Test_Case_4.txt"
+
 String test_case_5_filepath = "D:\\Program Files (x86)\\Eclipse\\eclipse saves\\JUnit_Selenium_Testing\\src\\junit_test\\Test_Case_5.txt"
 
 
