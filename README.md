@@ -1,5 +1,7 @@
 # unit_testing_responsive_webpage
 
+The project can be downloaded as a folder from the GitHub Repository. However, the zip version is also included.
+
 In order to create a successful project for testing, you should first download JUnit, Selenium for Java and chromedriver.
 The versions used in the project are as below;
 
