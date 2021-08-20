@@ -1,0 +1,158 @@
+body {
+width: 100%;
+height: 100%;
+}
+.navbar {
+-webkit-box-shadow: 0 8px 6px -6px rgb(44, 44, 44);
+-moz-box-shadow: 0 8px 6px -6px rgb(44, 44, 44);
+box-shadow: 0 8px 6px -6px rgb(24, 24, 24);
+
+/* the rest of your styling */
+}
+
+#mainNav.navbar--home{
+background:transparent;
+}
+
+#nav-brand{
+position: relative;
+}
+
+#nav-home-btn {
+position: relative;
+}
+
+#nav-link-btn {
+position: relative;
+}
+
+#nav-dis-btn {
+position: relative;
+}
+
+.top-nav-collapse {
+background-color: #78909c !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+background: transparent !important;
+}
+nav .navbar-brand {
+font-family: Montserrat;
+color: white !important;
+}
+
+nav .navbar-nav li a {
+font-family: Montserrat;
+color: white !important;
+}
+
+#search-bar{
+position: relative;
+background: transparent;
+border-radius: 0px 0px 0px 0px;
+border: none;
+border-bottom: 1px solid #fff;
+}
+
+#search-bar:focus {
+outline: none;
+transition: box-shadow linear 1s;
+border-bottom-color: #f0a911;
+box-shadow: 0 0 10px #e8ed9e;
+}
+
+
+.bg{
+background-color: black;
+width: 100%;
+height:729px;
+position:relative;
+display: block;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+}
+
+.row{
+background-color: red;
+position: relative;
+top: 60px;
+left: 0px;
+}
+
+h1 {
+font-family: Montserrat;
+position: relative;
+color: #fff;
+letter-spacing: 8px;
+
+}
+
+.hr-light {
+border-top: 3px solid #fff;
+width: 80px;
+margin: auto;
+}
+
+h5 {
+font-family: Montserrat;
+position: relative;
+color: #fff;
+letter-spacing: 8px;
+
+}
+
+#portfolio-btn{
+position: relative;
+right: 2.5%;
+top: 7.5%;
+border-radius: 0px 0px 0px 0px;
+color: #fff;
+font-family: Montserrat;
+
+border: 2px solid white;
+background-color: transparent;
+padding: 14px 28px;
+font-size: 16px;
+cursor: pointer;
+}
+
+#portfolio-btn:hover {
+transition: border-color linear 0.3s;
+transition: box-shadow linear 1s;
+border-color: #f0a911;
+box-shadow: 0 0 10px #f0a911;
+}
+
+#portfolio-btn:active {
+transition: background-color 1s;
+background: rgba(185, 185, 185, 0.5)    /*  10% opaque grey */ 
+}
+
+#about-btn{
+position: relative;
+left: 2.5%;
+top: 7.5%;
+border-radius: 0px 0px 0px 0px;
+color: #fff;
+font-family: Montserrat;
+
+border: 2px solid white;
+background-color: transparent;
+padding: 14px 28px;
+font-size: 16px;
+cursor: pointer;
+}
+
+#about-btn:hover {
+transition: border-color linear 1s;
+transition: box-shadow linear 0.3s;
+border-color: #f0a911;
+box-shadow: 0 0 10px #f0a911;
+}
+
+#about-btn:active {
+transition: background-color 1s;
+background: rgba(185, 185, 185, 0.5)    /*  10% opaque grey */ 
+}
